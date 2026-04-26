@@ -48,3 +48,21 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+LudoVerse/
+├── App.js                # Entry point of your app
+├── package.json          # Dependencies and scripts
+├── node_modules/         # Installed libraries
+├── assets/               # Images, icons, sounds
+│   ├── board/            # Ludo board assets (optional)
+│   └── tokens/           # Player tokens
+├── components/           # Reusable UI components
+│   ├── BoardGrid.js      # Grid layout for the Ludo board
+│   ├── SafeZone.js       # Colored safe zones
+│   └── Token.js          # Player token component
+├── screens/              # Screens if you expand later
+│   └── HomeScreen.js     # Main game screen
+├── styles/               # Centralized stylesheets
+│   └── colors.js         # Color constants (red, green, blue, yellow)
+└── utils/                # Helper functions (dice roll, game logic)
+    └── dice.js
